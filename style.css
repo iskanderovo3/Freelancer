@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background: url("./img/img\ 1.png");
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+ul li a {
+    color: #314a5b;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+nav .brand-logo {
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.main__title {
+    color: #314a5b;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main__title.top {
+    margin-top: 15rem;
+    width: 100%;
+    font-size: 3.56rem;
+}
+
+.main__parag {
+    font-weight: 550;
+    color: #314a5b;
+}
+
+.main__btn {
+    margin-top: 2rem;
+    margin-bottom: 25vh;
+}
+
+.card-content .card-title {
+    color: #314a5b;
+    font-weight: 700;
+}
+
+.card-content p {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    line-height: 1.234;
+    text-align: left;
+    z-index: 19;
+}
+
+.prt {
+    position: relative;
+    top: 7px;
+}
+
+.cards {
+    margin: 3rem 0;
+}
+
+.portfolio__parag {
+    color: #314a5b;
+    font-weight: 600;
+}
+
+.our-team {
+    margin-top: 5rem;
+}
+
+footer {
+    height: 150px;
+    padding-top: 2rem;
+}
+
+footer a i {
+    color: rgba(128, 128, 128, 0.645);
+    font-size: 30px;
+    padding: 0 5px;
+}
+
+
+@media (max-width: 1116px) {
+    .simple__payments, .peaceof__mind{
+        height: 260.75px;
+    }
+}
+
+@media (max-width:992px){
+    .simple__payments, .peaceof__mind{
+        height: 216px;
+    }
+}
+
+@media (max-width: 718px){
+    .simple__payments, .peaceof__mind{
+        height: 238.6px;
+    }
+}
+
+@media (max-width: 600px){
+    .team-part-1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+ @media (max-width: 440px){
+    .main__title.top{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 350px){
+    nav .brand-logo{
+        font-size: 1.3rem;
+    }
+}
